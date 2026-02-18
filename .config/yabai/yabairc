@@ -24,7 +24,7 @@ yabai -m config active_window_opacity 1.0
 yabai -m config normal_window_opacity 0.90
 
 # Mouse drag like Linux
-yabai -m config mouse_modifier fn      # Hold fn to move/resize windows
+yabai -m config mouse_modifier alt	   # Hold fn to move/resize windows
 yabai -m config mouse_action1 move     # Left-click + fn to move
 yabai -m config mouse_action2 resize   # Right-click + fn to resize
 

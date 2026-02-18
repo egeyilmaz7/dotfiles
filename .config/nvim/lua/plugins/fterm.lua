@@ -10,8 +10,8 @@ return {
         fterm.setup({
             border = 'single',
             dimensions = {
-                height = 0.6,
-                width = 0.6,
+                height = 0.8,
+                width = 0.8,
             },
             blend = 0,
         })
