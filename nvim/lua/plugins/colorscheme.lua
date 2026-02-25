@@ -1,23 +1,23 @@
 -- vague:
--- return {
--- "vague-theme/vague.nvim",
--- lazy = false,
--- priority = 1000,
--- config = function()
--- require("vague").setup()
--- vim.cmd("colorscheme vague")
--- end
--- }
-
---onehalf
 return {
-"clearaspect/onehalf",
+"vague-theme/vague.nvim",
 lazy = false,
 priority = 1000,
 config = function()
-vim.cmd.colorscheme("onehalfdark")
+require("vague").setup()
+vim.cmd("colorscheme vague")
 end
 }
+
+--onehalf
+-- return {
+-- "clearaspect/onehalf",
+-- lazy = false,
+-- priority = 1000,
+-- config = function()
+-- vim.cmd.colorscheme("onehalfdark")
+-- end
+-- }
 
 -- moonfly:
 -- return {
@@ -40,4 +40,13 @@ end
 -- end
 -- }
 
-
+-- kanagawa:
+-- return {
+	-- "rebelot/kanagawa.nvim",
+	-- name = "kanagawa",
+	-- lazy = false,
+	-- priority = 1000,
+	-- config = function()
+	-- vim.cmd("colorscheme kanagawa")
+	-- end
+-- }

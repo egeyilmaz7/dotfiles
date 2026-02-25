@@ -13,3 +13,5 @@ export EDITOR="nvim"
 alias v="nvim"
 alias ll="ls -la"
 alias cr="cargo run -q"
+
+fastfetch
