@@ -9,7 +9,7 @@
     "logo": {
         "type": "small",
 		"padding": {
-				"top": 2
+				"top": 1
 			}
     },
     "modules": [
@@ -17,8 +17,6 @@
     { "type": "os",       "key": "os",   "keyColor": "yellow",  "format": "{name}" },
     { "type": "shell",    "key": "sh",   "keyColor": "blue",    "format": "{pretty-name}" },
     { "type": "terminal", "key": "term", "keyColor": "cyan" },
-    { "type": "packages", "key": "pkgs", "keyColor": "green" },
-    { "type": "font",     "key": "font", "keyColor": "magenta" },
     { "type": "uptime",   "key": "up",   "keyColor": "green" },
     { "type": "cpu",      "key": "cpu",  "keyColor": "red",     "format": "{name}" },
     { "type": "memory",   "key": "ram",  "keyColor": "yellow",  "format": "{used} / {total}" },

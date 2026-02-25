@@ -9,8 +9,8 @@ map("i", "jj", "<Esc>")
  
 map("n", "<leader>f", ":Telescope find_files<CR>")
 map("n", "<leader>e", ":Oil<CR>")
-map('n', '<leader>j', ":lua require('FTerm').toggle()<CR>")             --open fterm
-map('t', '<leader>j', '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>') --close fterm
+map('n', '<leader>j', '<cmd>ToggleTerm<CR>')            --open terminal
+map('t', '<leader>j', '<cmd>ToggleTerm<CR>') --close terminal
 
 -- disable arrow keys
 vim.keymap.set('n', '<Up>', '<Nop>')

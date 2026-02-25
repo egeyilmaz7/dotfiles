@@ -9,12 +9,14 @@ autocmd("TextYankPost", {
 })
 
 --disable auto comment
-autocmd("FileType", {
-  pattern = "*",
-  callback = function()
-    vim.opt_local.formatoptions:remove({ "c", "r", "o" })
-  end,
-})
+-- autocmd("FileType", {
+--   pattern = "*",
+--   callback = function()
+--     vim.opt_local.formatoptions:remove({ "c", "r", "o" })
+--   end,
+-- })
+
+
 
 --return to last edit position when opening files
 autocmd("BufReadPost", {

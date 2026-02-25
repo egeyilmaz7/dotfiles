@@ -1,0 +1,6 @@
+theme = One Half Dark
+font-family = Fira Code Nerd Font
+font-size = 20
+window-decoration = false
+cursor-style = bar
+cursor-style-blink = false
