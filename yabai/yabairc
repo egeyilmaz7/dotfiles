@@ -1,35 +1,18 @@
 #!/bin/bash
 
-# Global settings
+# Layout
 yabai -m config layout bsp
-yabai -m config window_gap 5
-yabai -m config top_padding 5
-yabai -m config bottom_padding 5
-yabai -m config left_padding 5
-yabai -m config right_padding 5
+yabai -m config window_gap 4
+yabai -m config top_padding 4
+yabai -m config bottom_padding 4
+yabai -m config left_padding 4
+yabai -m config right_padding 4
 
-# Window behavior
+# Focus
 yabai -m config focus_follows_mouse autofocus
 yabai -m config mouse_follows_focus off
-yabai -m config window_placement second_child
-yabai -m config window_shadow off
 
-# Space settings
-yabai -m config auto_balance on
-yabai -m config split_ratio 0.50
-
-# Disable macOS window animations
-yabai -m config window_opacity on
-yabai -m config active_window_opacity 1.0
-yabai -m config normal_window_opacity 0.90
-
-# Mouse drag like Linux
-yabai -m config mouse_modifier alt	   # Hold fn to move/resize windows
-yabai -m config mouse_action1 move     # Left-click + fn to move
-yabai -m config mouse_action2 resize   # Right-click + fn to resize
-
-# Smoother animations
-yabai -m config window_opacity_duration 0.15   # transition speed for opacity
-yabai -m config window_shadow_radius 5         # softer shadow edges
-yabai -m config window_shadow_opacity 0.25     # subtle shadows
-
+# Mouse drag (Linux style)
+yabai -m config mouse_modifier alt
+yabai -m config mouse_action1 move
+yabai -m config mouse_action2 resize

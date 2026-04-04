@@ -22,14 +22,22 @@ return {
 				zls = {},
 				jdtls = {},
 				marksman = {},
+				clangd = {},
 			},
 		},
 
 		config = function(_, opts)
-			require("mason").setup()
+			require("mason").setup(
+				{
+					registries = {
+						"github:mason-org/mason-registry",
+						"github:Crashdummyy/mason-registry",
+					},
+				}
+			)
 
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "rust_analyzer", "taplo", "zk", "zls", "jdtls", "marksman" }
+				ensure_installed = { "lua_ls", "rust_analyzer", "taplo", "zk", "zls", "jdtls", "marksman","clangd" }
 			})
 
 			for server, config in pairs(opts.servers) do
