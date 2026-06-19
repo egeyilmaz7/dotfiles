@@ -32,8 +32,8 @@ return {
           },
         },
         lualine_c = { 'filename' },
-        lualine_x = { 'encoding', 'filetype' },
-        lualine_y = { 'progress' },
+        lualine_x = { 'filetype' },
+        lualine_y = {  },
         lualine_z = { 'location' },
       },
       inactive_sections = {

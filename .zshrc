@@ -13,5 +13,13 @@ export EDITOR="nvim"
 alias v="nvim"
 alias ll="ls -la"
 alias cr="cargo run -q"
+alias oc="opencode"
 
 fastfetch
+
+# Added by Antigravity
+export PATH="/Users/egeyilmaz/.antigravity/antigravity/bin:$PATH"
+
+
+# opencode
+export PATH=/Users/egeyilmaz/.opencode/bin:$PATH

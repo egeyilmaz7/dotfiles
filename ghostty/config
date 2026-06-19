@@ -1,7 +1,7 @@
 # theme = Vague
 # theme = Gruvbox Dark
 # theme = One Double Dark
- theme = Kanagawabones
+theme = Kanagawabones
 font-family = Fira Code Nerd Font
 font-size = 20
 macos-titlebar-style = hidden

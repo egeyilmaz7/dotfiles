@@ -16,8 +16,6 @@ autocmd("TextYankPost", {
 --   end,
 -- })
 
-
-
 --return to last edit position when opening files
 autocmd("BufReadPost", {
     pattern = "*",
@@ -30,7 +28,7 @@ autocmd("BufReadPost", {
     end,
   })
 
-
+-- lsp stuff
 autocmd('LspAttach', {
     group = vim.api.nvim_create_augroup('UserLspConfig', {}),
     callback = function(ev)
